@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
         <Version>0.1.6-dev</Version>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
-    <PropertyGroup Condition="'$(TargetFramework)' == 'net452'">
-        <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PropertyGroup Condition="'$(TargetFramework)' == 'net462'">
+        <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     </PropertyGroup>
     <PropertyGroup>
         <OutputType>library</OutputType>
